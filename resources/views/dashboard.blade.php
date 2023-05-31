@@ -4,23 +4,18 @@
             {{ __('Dashboard') }}
         </h2>
     </x-slot>
-
-    <div class="flex my-8 ">
-        <div class="bg-green-700 h-[250px] w-full ">
+    <div class="flex flex-wrap bg-gray-800 h-auto w-full  ">
+        
+        <div class="bg-green-700 h-10 w-full sm:w-1/3 p-5">
             hola
         </div>
-    </div>
-
-    <div class="flex">
-        <div class="bg-white-700 h-[250px] w-full border-4 border-black">
+        <div class="bg-white h-10 w-full sm:w-1/3 border-4 p-10 border-black">
             este es el segundo   
         </div>
-    </div>
-
-    <div class="flex my-8">
-        <div class="bg-red-700 h-[250px] w-full " >
+        <div class="bg-red-700 h-10 w-full sm:w-1/3 p-5" >
             y aqui va el 3
         </div>
+        
     </div>
     
 
