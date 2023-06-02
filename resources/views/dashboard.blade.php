@@ -4,18 +4,21 @@
             {{ __('Dashboard') }}
         </h2>
     </x-slot>
-    <div class="flex flex-wrap bg-gray-800 h-auto w-full  ">
+    <div class="flex flex-wrap w-full bg-gray-800  ">
         
-        <div class="bg-green-700 h-10 w-full sm:w-1/3 p-5">
-            hola
+        <div class="flex flex-wrap bg-green-700 h-[300px] w-full sm:w-1/2 p-5">
+             
+            <div class="bg-red-500 w-full sm:w-1/3"> sdfdfsf</div>
+            <div class="bg-cyan-700 w-full sm:w-1/3">2</div>
+            <div class="bg-yellow-500  w-full sm:w-1/3">3</div>   
         </div>
-        <div class="bg-white h-10 w-full sm:w-1/3 border-4 p-10 border-black">
-            este es el segundo   
+    
+        <div class="flex flex-wrap bg-white h-[300px] w-full sm:w-1/2 border-4 p-5 border-black">
+            <div class="bg-green-500 w-full sm:w-1/3">1</div>
+            <div class="bg-red-600 w-full sm:w-1/3">2</div>
+            <div class="bg-pink-600 w-full sm:w-1/3">sm:w-1/23</div>
         </div>
-        <div class="bg-red-700 h-10 w-full sm:w-1/3 p-5" >
-            y aqui va el 3
-        </div>
-        
+   
     </div>
     
 
