@@ -7,14 +7,15 @@
     <div class="flex flex-wrap w-full bg-gray-800  ">
         
         <div class="flex flex-wrap bg-green-700 h-auto w-full sm:w-1/2 p-2">
-            <div class="w-full h-[300px] bg-gradient-to-r sm:w-1/2 p-2 border-2 border-black from-cyan-500 to-blue-700"> </div>
+            <div class="w-full h-[300px] bg-gradient-to-r sm:w-1/2 p-2 border-2 border-black from-cyan-500 to-blue-700 bg-cover bg-center " style="  background-image: url('https://www.elfinanciero.com.mx/resizer/dErh8Cebr5Wd55hqXjvR6CSUK7Y=/400x267/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/65J44BW5CNDU3DVDO5ZYHI22TM.jpeg');"> </div>
             <div class=" w-full text-justify h-[300px] sm:w-1/2  bg-gradient-to-r p-3 border-2 border-black from-purple-700 to-pink-500">no se que poner en este cuadro simplemento lo quiero rellenar pero me da hueva pensar en un texto interesante asi que solo escribire a lo menso</div>
                
         </div>
     
         <div class="flex flex-wrap bg-gradient-to-r text-center from-pink-500 to-violet-500 h-[350px] w-full sm:w-1/2 border-4 p-2 border-black">
             <div class="bg-green-500 w-full sm:w-1/3 p-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam facere soluta facilis minus ab, repudiandae voluptate? Explicabo, beatae nemo porro ipsum minus, saepe numquam tenetur reiciendis ducimus rerum accusantium debitis.</div>
-            <div class="bg-red-600 h-35 w-full sm:w-1/3 my-[100px]"></div>
+            <div class="bg-red-500 h-35 w-full sm:w-1/3 my-[100px] bg-cover bg-center" style="  background-image: url('https://desarrolloweb.com/storage/tag_images/actual/F2Cam6JmHqcvyb6Y0GVl7lSCqA4tEYLMufLm5OHo.png');"
+            ></div>
             <div class="bg-pink-600 w-full p-3 bg-gradient-to-r from-yellow-500 to-orange-500 text-right sm:w-1/3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam eos soluta vel repudiandae qui aliquam cum repellat debitis ratione ea, expedita dolorem voluptates obcaecati quo, doloremque aut eligendi ab nulla.</div>
         </div>
    
