@@ -4,21 +4,57 @@
             {{ __('Dashboard') }}
         </h2>
     </x-slot>
-    <div class="flex flex-wrap w-full bg-gray-800  ">
-        
-        <div class="flex flex-wrap bg-green-700 h-auto w-full sm:w-1/2 p-2">
-            <div class="w-full h-[300px] bg-gradient-to-r sm:w-1/2 p-2 border-2 border-black from-cyan-500 to-blue-700 bg-cover bg-center " style="  background-image: url('https://www.elfinanciero.com.mx/resizer/dErh8Cebr5Wd55hqXjvR6CSUK7Y=/400x267/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/elfinanciero/65J44BW5CNDU3DVDO5ZYHI22TM.jpeg');"> </div>
-            <div class=" w-full text-justify h-[300px] sm:w-1/2  bg-gradient-to-r p-3 border-2 border-black from-purple-700 to-pink-500">no se que poner en este cuadro simplemento lo quiero rellenar pero me da hueva pensar en un texto interesante asi que solo escribire a lo menso</div>
-               
+
+
+    <div class="flex bg-purple-500 justify-left py-28 ">
+        <div class="flex flex-wrap bg-gradient-to-r from-pink-500 to-violet-700 h-auto w-1/4 border-2  border-black">
+            <div class="flex flex-wrap  h-40 justify-center w-full">
+                <div class="flex  w-40 h-auto justify-center items-center">
+                    <img src="https://preview.redd.it/que-tienen-de-foto-de-perfil-en-whatsapp-v0-klxcadqzreua1.jpeg?width=924&format=pjpg&auto=webp&s=58028fe6fc7af9af12738b129f1beed621423e07" alt="perrito">
+                </div>
+            </div>
+            <div class="flex flex-wrap  h-28 w-full mx-0">
+                <div class="flex  uppercase  w-full justify-center items-center">
+                    <h2>nombre </h2>
+                </div>
+                <div class="flex overline  w-full justify-center items-center">
+                    <input type="text" name="nombre" id="nombre">
+                </div>
+            </div>
+            <div class="flex flex-wrap h-32 w-full m-0">
+                <div class="flex  w-full uppercase justify-center items-center ">contraseña</div>
+                <div class="flex  w-full justify-center items-center">
+                    <input type="text" name="" id="">
+                </div>
+                <div class="flex w-full justify-center items-center">
+                    <button class="rounded-full bg-blue-600 border border-gray-700 hover:border-black  w-40">dale pa guardar</button>
+                </div>
+            </div>
         </div>
-    
-        <div class="flex flex-wrap bg-gradient-to-r text-center from-pink-500 to-violet-500 h-[350px] w-full sm:w-1/2 border-4 p-2 border-black">
-            <div class="bg-green-500 w-full sm:w-1/3 p-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam facere soluta facilis minus ab, repudiandae voluptate? Explicabo, beatae nemo porro ipsum minus, saepe numquam tenetur reiciendis ducimus rerum accusantium debitis.</div>
-            <div class="bg-red-500 h-35 w-full sm:w-1/3 my-[100px] bg-cover bg-center" style="  background-image: url('https://desarrolloweb.com/storage/tag_images/actual/F2Cam6JmHqcvyb6Y0GVl7lSCqA4tEYLMufLm5OHo.png');"
-            ></div>
-            <div class="bg-pink-600 w-full p-3 bg-gradient-to-r from-yellow-500 to-orange-500 text-right sm:w-1/3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam eos soluta vel repudiandae qui aliquam cum repellat debitis ratione ea, expedita dolorem voluptates obcaecati quo, doloremque aut eligendi ab nulla.</div>
+    </div>
+
+
+
+
+
+
+    <div class="flex h-auto w-1/4 border-2 border-black ">
+        <div class="flex flex-wrap w-full">
+            <div class="bg-red-500 w-full">imag</div>
         </div>
-   
+
+        <div class="flex flex-wrap w-full ">
+            <div class="bg-blue-500 w-full ">nombre</div>
+            <div class="bg-blue-200 w-full ">texto para el nombre</div>
+        </div>
+
+        <div class="flex-grap">
+            <div class=" bg-lime-400">la contraseña</div>
+            <div class="bg-green-500"> boton</div>
+            <div class="bg-green-700">para guardar</div>
+        </div>
+
+
     </div>
     
 
