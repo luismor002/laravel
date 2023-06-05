@@ -9,8 +9,8 @@
     <div class="flex justify-center ps py-14 ">
         <div class="flex flex-wrap bg-gradient-to-r shadow-2xl from-pink-500 to-violet-700 h-auto w-1/4 border-2 m-9 border-black">
             <div class="flex flex-wrap  h-40 justify-center w-full">
-                <div class="flex  w-40 h-auto justify-center items-center drop-shadow-2xl">
-                    <img class=" rounded-full h-full w-full border-2 border-black" src="https://preview.redd.it/que-tienen-de-foto-de-perfil-en-whatsapp-v0-klxcadqzreua1.jpeg?width=924&format=pjpg&auto=webp&s=58028fe6fc7af9af12738b129f1beed621423e07" alt="perrito">
+                <div class="flex m-2 w-40 h-auto justify-center items-center drop-shadow-2xl">
+                    <img class="  rounded-full h-full w-full border-2 border-black" src="https://preview.redd.it/que-tienen-de-foto-de-perfil-en-whatsapp-v0-klxcadqzreua1.jpeg?width=924&format=pjpg&auto=webp&s=58028fe6fc7af9af12738b129f1beed621423e07" alt="perrito">
                 </div>
             </div>
             <div class="flex flex-wrap  h-28 w-full mx-0">
@@ -39,7 +39,7 @@
 
         <div class="flex flex-wrap  h-auto w-1/4 border-2 drop-shadow-2xl bg-gradient-to-r from-green-500 to-violet-700 m-9 border-black ">
             <div class="flex flex-wrap  justify-left items-left h-auto w-full ">
-                <div class="flex flex-wrap h-auto w-32">
+                <div class="flex flex-wrap h-auto m-2 w-32">
                     <img class=" rounded-full h-full w-full border-2 border-black" src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/WBV5RZ46QRDGJMFDOUSL2WBLMI.jpg" alt="perrito panzon">
                 </div>
             </div>
@@ -61,7 +61,7 @@
                     <input class="rounded-full" type="password" name="" id="">
                 </div>
                 <div class="flex w-full justify-end items-end drop-shadow-2xl p-3">
-                    <button href="https://www.youtube.com/watch?v=2WFZBFKIEg4" class="rounded-full cursor-pointer  bg-blue-600 border border-gray-700 hover:border-black  w-40">dale pa guardar</button>
+                    <button class="rounded-full cursor-pointer  bg-blue-600 border border-gray-700 hover:border-black  w-40">dale pa guardar</button>
                 </div>
             </div>
         </div>
