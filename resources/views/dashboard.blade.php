@@ -1,12 +1,12 @@
 <x-app-layout>
     <x-slot name="header">
-        <h2 class="font-semibold text-xl text-gray-800 leading-tight">
+        <!-- <h2 class="font-semibold text-xl text-gray-800 leading-tight">
             {{ __('Dashboard') }}
-        </h2>
+        </h2> -->
     </x-slot>
 
 
-    <div class="flex justify-center ps py-14 ">
+    <div class="flex justify-center ps py-14 bg-gray-500 ">
         <div class="flex flex-wrap bg-gradient-to-r shadow-2xl from-pink-500 to-violet-700 h-auto w-1/4 border-2 m-9 border-black">
             <div class="flex flex-wrap  h-40 justify-center w-full">
                 <div class="flex m-2 w-40 h-auto justify-center items-center drop-shadow-2xl">
@@ -27,7 +27,7 @@
                     <input class="rounded-full" type="text" name="" id="">
                 </div>
                 <div class="flex w-full justify-end items-end p-3">
-                    <button class=" rounded-full  bg-blue-600 border border-gray-700 hover:border-black  w-40">dale pa guardar</button>
+                    <button class=" active:bg-blue-950 rounded-full  bg-blue-600 border border-gray-700 hover:border-black  w-40">dale pa guardar</button>
                 </div>
             </div>
         </div>
@@ -61,7 +61,7 @@
                     <input class="rounded-full" type="password" name="" id="">
                 </div>
                 <div class="flex w-full justify-end items-end drop-shadow-2xl p-3">
-                    <button class="rounded-full cursor-pointer  bg-blue-600 border border-gray-700 hover:border-black  w-40">dale pa guardar</button>
+                    <button class="rounded-full cursor-pointer active:bg-blue-700  bg-blue-600 border border-gray-700 hover:border-black  w-40">dale pa guardar</button>
                 </div>
             </div>
         </div>
