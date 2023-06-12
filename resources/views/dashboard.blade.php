@@ -34,8 +34,8 @@
                                 {{ __('revisar tu perfile ajua') }}
                             </div>
 
-                            <x-dropdown-link href="{{ route('profile.show') }}">
-                                {{ __('tu perfile') }}
+                            <x-dropdown-link href="{{ route('user.index') }}">
+                                {{ __('el users') }}
                             </x-dropdown-link>
 
                             @if (Laravel\Jetstream\Jetstream::hasApiFeatures())
@@ -46,15 +46,12 @@
 
                             <div class="border-t border-gray-200"></div>
 
+                            <x-dropdown-link href="{{ route('post.index') }}">
+                                {{ __('el posts ') }}
+                            </x-dropdown-link>
                             <!-- Authentication -->
-                            <form method="POST" action="{{ route('logout') }}" x-data>
-                                @csrf
-
-                                <x-dropdown-link href="{{ route('logout') }}"
-                                         @click.prevent="$root.submit();">
-                                    {{ __('salirte pa fuera') }}
-                                </x-dropdown-link>
-                            </form>
+                            
+                            
                         </x-slot>
                     </x-dropdown>
                 </div>

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\User;
 
 class UserController extends Controller
 {
@@ -11,7 +12,9 @@ class UserController extends Controller
      */
     public function index()
     {
-        //
+        $usuarios = User::get()->all();
+        // dd($usuarios);
+        return view('user.index');
     }
 
     /**
@@ -38,7 +41,9 @@ class UserController extends Controller
         //
     }
 
-    /**
+    /**<x-dropdown-link href="{{ route('user.index') }}">
+                                {{ __('tu perfile') }}
+                            </x-dropdown-link>
      * Show the form for editing the specified resource.
      */
     public function edit(string $id)

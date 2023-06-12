@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\PostController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -29,3 +30,13 @@ Route::middleware([
 
 Route::get('/index/users', [UserController::class, 'index'] )->name('user.index');
 // Route::get('/index/users/old'. 'UserControler@index')->name('user.index.old');
+Route::get('/index/post', [PostController::class, 'index'] )->name('post.index');
+
+Route::get('/post/show/{post}', [PostController::class, 'show'] )->name('post.show');
+Route::get('/post/edit/{post}', [PostController::class, 'edit'])->name('post.edit');
+Route::post('/post/eliminar/{id}', [PostController::class,'destroy'])->name('post.eliminar');
+Route::get('/post/create', [PostController::class, 'create'])->name('post.create');
+Route::post('/post/store', [PostController::class, 'store'])->name('post.store');
+Route::post('/post/update', [PostController::class, 'update'])->name('post.update');
+
+
