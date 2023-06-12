@@ -30,7 +30,7 @@
       <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"  type="submit">
         guardar
       </button>
-      
+      <input class="bg-red-600 rounded-lg text-white p-2" type="button" onclick="history.back()" name="volver atrás" value="volver atrás">
     </div>
   
 </div>
