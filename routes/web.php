@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\PostController;
+use App\Http\Controllers\NotasController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -32,6 +33,7 @@ Route::get('/index/users', [UserController::class, 'index'] )->name('user.index'
 // Route::get('/index/users/old'. 'UserControler@index')->name('user.index.old');
 Route::get('/index/post', [PostController::class, 'index'] )->name('post.index');
 
+
 Route::get('/post/show/{post}', [PostController::class, 'show'] )->name('post.show');
 Route::get('/post/edit/{post}', [PostController::class, 'edit'])->name('post.edit');
 Route::post('/post/eliminar/{id}', [PostController::class,'destroy'])->name('post.eliminar');
@@ -40,3 +42,10 @@ Route::post('/post/store', [PostController::class, 'store'])->name('post.store')
 Route::post('/post/update', [PostController::class, 'update'])->name('post.update');
 
 
+Route::get('/index/notas', [NotasController::class, 'index'])->name('notas.index');
+Route::get('/notas/show/{notas}', [NotasController::class, 'show'])->name('notas.show'); 
+Route::post('/notas/eliminar/{id}', [NotasController::class,'destroy'])->name('notas.eliminar');
+Route::get('/notas/edit/{notas}', [NotasController::class, 'edit'])->name('notas.edit');
+Route::post('/notas/store', [NotasController::class, 'store'])->name('notas.store');
+Route::post('/notas/update', [NotasController::class, 'update'])->name('notas.update');
+Route::get('/notas/create', [NotasController::class, 'create'])->name('notas.create');

@@ -69,11 +69,11 @@ class PostController extends Controller
     public function update(Request $request, Post $post)
     {
         $post=Post::find($request->id);
-         $post->titulo = $request->titulo;
-         $post->img = $request->imagen;
-         $post->descripcion = $request->descripcion;
-         $post->save(); 
-         return redirect()->route('post.index');
+        $post->titulo = $request->titulo;
+        $post->img = $request->imagen;
+        $post->descripcion = $request->descripcion;
+        $post->save(); 
+        return redirect()->route('post.index');
     }
 
     /**
